@@ -16,18 +16,18 @@
 //         T1 m_Name;
 //         T2 m_Age;
 // };
-// //ÀàÄ£°å¹¹Ôìº¯ÊıÀàÍâÊµÏÖ
+// //ç±»æ¨¡æ¿æ„é€ å‡½æ•°ç±»å¤–å®ç°
 // template<class T1,class T2>
 // Person<T1,T2>::Person(T1 name,T2 age)
 // {
 //     this->m_Age=age;
 //     this->m_Name=name;
 // }
-// //ÀàÄ£°å³ÉÔ±º¯ÊıÀàÍâÊµÏÖ
+// //ç±»æ¨¡æ¿æˆå‘˜å‡½æ•°ç±»å¤–å®ç°
 // template<class T1,class T2>
 // void Person<T1,T2>::showPerson()
 // {
-//     cout<<"ĞÕÃû£º"<<this->m_Name<<" ÄêÁä£º"<<this->m_Age<<endl;
+//     cout<<"å§“åï¼š"<<this->m_Name<<" å¹´é¾„ï¼š"<<this->m_Age<<endl;
 // }
 
 
